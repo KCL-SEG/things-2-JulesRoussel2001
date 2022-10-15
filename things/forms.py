@@ -4,7 +4,7 @@
 from django import forms
 from .models import Thing
 
-class SignUpForm(forms.modelForm):
+class SignUpForm(forms.ModelForm):
     class Meta:
         model = Thing
         fields = ['name', 'description', 'quantity']
