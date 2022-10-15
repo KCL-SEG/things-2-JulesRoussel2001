@@ -2,7 +2,7 @@
 
 # Create your forms here.
 from django import forms
-from form.models import Thing
+from .models import Thing
 
 class SignUpForm(froms.modelForm):
     class Meta:
