@@ -1,7 +1,7 @@
 """Forms of the project."""
 
 # Create your forms here.
-from django import Forms
+from django import forms
 from models import Thing
 
 class SignUpForm(froms.modelForm):
